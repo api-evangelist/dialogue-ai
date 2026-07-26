@@ -1,9 +1,30 @@
 aid: dialogue-ai
-name: Dialogue Ai
-description: Dialogue Ai is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Dialogue AI
+description: >-
+  Dialogue AI is an AI-native customer and market research platform, founded in
+  2025 and backed by a Lightspeed Venture Partners seed round, that helps product,
+  design, and research teams uncover customer needs, test ideas, and capture
+  authentic feedback through adaptive AI-moderated interviews. The platform
+  automates the research workflow end to end — study design, participant
+  recruitment (including a Prolific partnership), AI-led interviewing across
+  multiple research formats, and real-time reporting and insight synthesis — so
+  organizations can make agile, data-driven decisions aligned with real-world
+  market changes. Dialogue AI is a web application (app.dialogueai.com) rather than
+  a public developer API provider; this profile captures its company identity and
+  public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/dialogue-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.dialogueai.com/images/og_image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Market Research
+- Customer Research
+- User Research
+- Artificial Intelligence
+- AI Interviews
+- Voice of Customer
+- Product Discovery
+- Insights
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dialogue-ai-domain-security.yml
+- type: Website
+  url: https://dialogueai.com/
+- type: About
+  url: https://dialogueai.com/about
+- type: Blog
+  url: https://dialogueai.com/blog
+- type: Support
+  url: https://dialogueai.com/contact
+- type: TermsOfService
+  url: https://dialogueai.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://dialogueai.com/privacy-policy
+- type: SignUp
+  url: https://app.dialogueai.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trydialogueai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
